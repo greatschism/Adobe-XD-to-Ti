@@ -1,0 +1,21 @@
+{
+  "name" : "titanium",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "13.0.0"
+  },
+  "description" : "Sample plugin for Adobe XD, providing starter project scaffolding.",
+  "id" : "6622a406",
+  "icons" : [ {
+    "path" : "images/icon.png",
+    "width" : 96,
+    "height" : 96
+  } ],
+  "uiEntryPoints" : [ {
+   "type": "menu",
+            "label": "My Copy CSS",
+            "commandId": "copyMe",
+            "shortcut": { "mac": "Cmd+Shift+Alt+C", "win": "Ctrl+Shift+Alt+C" }
+  } ],
+  "version" : "1.0.0"
+}
